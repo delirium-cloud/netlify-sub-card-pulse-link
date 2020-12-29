@@ -1,0 +1,19 @@
+.back-link {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.1;
+}
+
+@-webkit-keyframes a {
+    0% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
